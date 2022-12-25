@@ -566,3 +566,92 @@ checkTypeArray.forEach((a,i)=>{
 
 
 
+
+
+
+
+/////////////////////////////// detai.html ///////////////////////////////////
+
+// 2750 50 780 
+
+////// 첫번째 섹션
+let section_0_current_state = true;  // true 면 펼쳐져 있는 false면 접음
+$('.cd-accordion__unit-cover').eq(0).css('max-height','2750px');
+$('.is-open').eq(0).css('display','block');
+$('.is-close').eq(0).css('display','none');
+
+$('.cd-accordion__section-cover').eq(0).on('click',function(){
+    if( section_0_current_state == true ){
+        $('.cd-accordion__unit-cover').eq(0).css('max-height','0px');
+        $('.is-open').eq(0).css('display','none');
+        $('.is-close').eq(0).css('display','block');
+        section_0_current_state = false;
+    } else {
+        $('.cd-accordion__unit-cover').eq(0).css('max-height','2750px');
+        $('.is-open').eq(0).css('display','block');
+        $('.is-close').eq(0).css('display','none');
+        section_0_current_state = true;
+    }
+})
+
+
+
+
+
+// ////////// 두번째 섹션
+
+for (let i=1; i<10; i++){
+    $('.cd-accordion__unit-cover').eq(i).css('max-height','0px');
+    $('.is-open').eq(i).css('display','none');
+    $('.is-close').eq(i).css('display','block');
+}
+
+
+let section_1_current_state = false;  // true 면 펼쳐져 있는 false면 접음
+
+$('.cd-accordion__section-cover').eq(1).on('click',function(){
+    if( section_1_current_state == true ){
+        $('.cd-accordion__unit-cover').eq(1).css('max-height','0px');
+        $('.is-open').eq(1).css('display','none');
+        $('.is-close').eq(1).css('display','block');
+        section_1_current_state = false;
+    } else {
+        $('.cd-accordion__unit-cover').eq(1).css('max-height','50px');
+        $('.is-open').eq(1).css('display','block');
+        $('.is-close').eq(1).css('display','none');
+        section_1_current_state = true;
+    }
+})
+
+
+let section_2_current_state = false;  // true 면 펼쳐져 있는 false면 접음
+
+$('.cd-accordion__section-cover').eq(2).on('click',function(){
+    if( section_2_current_state == true ){
+        $('.cd-accordion__unit-cover').eq(2).css('max-height','0px');
+        $('.is-open').eq(2).css('display','none');
+        $('.is-close').eq(2).css('display','block');
+        section_2_current_state = false;
+    } else {
+        $('.cd-accordion__unit-cover').eq(2).css('max-height','780px');
+        $('.is-open').eq(2).css('display','block');
+        $('.is-close').eq(2).css('display','none');
+        section_2_current_state = true;
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

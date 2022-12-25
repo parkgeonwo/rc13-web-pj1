@@ -2146,6 +2146,13 @@ a > span{
     background-color: #f8f9fa;
     cursor: pointer;
 }
+.is-open{
+    margin-right: 6px;
+}
+.is-close{
+    margin-right: 6px;
+}
+
 .cd-accordion__section-title{
     line-height: 1.47;
     letter-spacing: -.3px;
@@ -2171,8 +2178,8 @@ a > span{
 }
 .cd-accordion__unit > span:nth-child(1){
     margin-right: 8px;
-    width: 16px;
-    height: 16px;
+    /* width: 16px;
+    height: 16px; */
 }
 .ac-accordion__unit-title{
     font-weight: 400;
