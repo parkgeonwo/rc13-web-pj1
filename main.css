@@ -1068,7 +1068,7 @@ a > span{
 }
 
 
-
+/* apply */
 .apply{
     width: 100%;
     height: 512px; 
@@ -1126,7 +1126,7 @@ a > span{
 }
 
 
-
+/* footer */
 .footer{
     width: 100%;
     height: 438px;
@@ -2297,7 +2297,7 @@ a > span{
     font-weight: 700;
     font-size: 1.125rem;
 }
-.tag{
+.sub-course-tag{
     font-size: .5rem;
     border-radius: 290486px;
 }
