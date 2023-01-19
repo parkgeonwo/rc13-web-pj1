@@ -7,5 +7,4 @@
 - [https://parkgeonwo.github.io/rc13-web-pj1/detail.html](https://parkgeonwo.github.io/rc13-web-pj1/detail.html)
 
 
-### 2주차 : 1주차 과제를 React로 변경
 
